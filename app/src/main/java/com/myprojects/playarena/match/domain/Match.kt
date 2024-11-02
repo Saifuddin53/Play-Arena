@@ -9,5 +9,7 @@ data class Match(
     val player2: Player,
     val matchType: MatchType,
     val matchStatus: MatchStatus,
+    val player1Score: Int,
+    val player2Score: Int,
     val matchResult: MatchResult?
 )
