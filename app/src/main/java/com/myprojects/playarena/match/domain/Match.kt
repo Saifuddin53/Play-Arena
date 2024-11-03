@@ -14,5 +14,5 @@ data class Match(
     val matchStatus: MatchStatus,
     val player1Score: Int,
     val player2Score: Int,
-    val matchResult: MatchResult?
+    val matchResult: String
 )
